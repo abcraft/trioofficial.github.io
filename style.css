@@ -1,0 +1,553 @@
+            * {
+                margin-top: 0;
+                padding: 0;
+                box-sizing: border-box;
+                font-family: 'Poppins', sans-serif;
+            }
+            
+            .navbar-nav li {
+                margin-left: 4px;
+                margin-left: 4px;
+            }
+            
+            .banner-01 {
+                width: 100%;
+                height: 100vh;
+                background: url('../img/banner-1.jpg');
+                min-height: 500px;
+                background-attachment: fixed;
+                background-position: center;
+                background-repeat: no-repeat;
+                background-size: cover;
+            }
+            
+            .banner-txt-01 {
+                margin: 200px 0 0 40px;
+            }
+            
+            .banner-txt-01 h1 {
+                font-size: 110px;
+                color: white;
+                font-weight: 800;
+            }
+            
+            .banner-txt-01 p {
+                font-size: 20px;
+                margin-left: 260px;
+                color: white;
+                font-weight: 500;
+            }
+            
+            .banner-02 {
+                width: 100%;
+                height: 100vh;
+                background: url('../img/banner-2.jpg');
+                min-height: 500px;
+                background-attachment: fixed;
+                background-position: center;
+                background-repeat: no-repeat;
+                background-size: cover;
+            }
+            
+            .banner-txt-02 {
+                margin: 200px 0 0 180px;
+                /* color: white; */
+            }
+            
+            .banner-txt-02 h1 {
+                font-size: 110px;
+                color: white;
+                font-weight: 800;
+            }
+            
+            .banner-txt-02 p {
+                font-size: 20px;
+                margin-left: 140px;
+                color: white;
+                font-weight: 500;
+            }
+            /* <<<<<<<<<>>>>>>>>>>. */
+            
+            .arb {
+                margin-left: -20px;
+            }
+            
+            .slider-main-col-1 {
+                padding-left: 40px;
+                margin-right: -35px;
+            }
+            
+            .shop-title-1 {
+                font-size: 60px;
+                line-height: 1;
+                position: relative;
+                top: 60px;
+                right: 60px;
+            }
+            
+            .arb p {
+                font-size: 17px;
+                font-weight: 200;
+                color: grey;
+            }
+            
+            .arb-1 {
+                margin-left: 70px;
+            }
+            
+            .arb-1 h5 {
+                font-size: 20px;
+                font-weight: 500;
+                color: black;
+                margin-top: 10px;
+            }
+            
+            .arb-1 p {
+                font-size: 17px;
+                font-weight: 200;
+                color: grey;
+            }
+            
+            .s-image {
+                width: 490px;
+            }
+            
+            .bb {
+                margin-left: -20px;
+            }
+            
+            .shop-title-2 {
+                font-size: 60px;
+                line-height: 1;
+                position: relative;
+                top: 60px;
+                left: 20px;
+            }
+            
+            .bb p {
+                font-size: 17px;
+                font-weight: 200;
+                color: grey;
+            }
+            
+            .bb-1 {
+                margin-left: 50px;
+            }
+            
+            .bb-1 h5 {
+                font-size: 20px;
+                font-weight: 500;
+                color: black;
+                margin-top: 10px;
+            }
+            
+            .bb-1 p {
+                font-size: 17px;
+                font-weight: 200;
+                color: grey;
+            }
+            
+            .item-a h5 {
+                font-size: 20px;
+                font-weight: 500;
+                color: black;
+                margin-top: 10px;
+            }
+            
+            .ba-body .item-a,
+            p {
+                font-size: 17px;
+                font-weight: 700;
+                color: grey;
+            }
+            
+            .bb .item-a,
+            p {
+                font-size: 17px;
+                font-weight: 700;
+                color: grey;
+            }
+            
+            #autoWidths-3 .item-a img {
+                width: 310px;
+                /* height: auto; */
+            }
+            
+            .autoWidths-4 .item-a {
+                margin-bottom: 10px !important;
+            }
+            
+            .newsletter {
+                background-color: black;
+                color: white;
+                height: 35vh;
+            }
+            
+            .newsletter-body {
+                margin: 80px 0 0 0px !important;
+            }
+            
+            .newsletter-title {
+                font-size: 80px !important;
+                margin-right: 0px !important;
+            }
+            
+            .newsletter-form {
+                margin: 100px 0 0 0px !important;
+            }
+            
+            .newsletter-input {
+                padding: 15px 90px;
+                /* margin: 110px 0 0 0px !important; */
+            }
+            
+            .newsletter .btn {
+                background-color: darkorange;
+                padding: 15px 10px;
+            }
+            
+            #brand-icon {
+                height: 30vh;
+            }
+            
+            .autoWidths-4 li {
+                padding: 20px 10px;
+            }
+            
+            #autoWidths-4 .logo-a .icon {
+                width: 170px;
+                padding: 10px;
+            }
+            
+            .social-icon i:hover {
+                color: rgb(235, 235, 42);
+            }
+            /*<<<<<<<<<<<--- Media Quaries ---->>>>>>>>>>>> */
+            
+            @media(max-width:768px) {
+                .banner-01 {
+                    height: 80vh;
+                    background: url('../img/banner-1.jpg');
+                    min-height: 500px;
+                    background-attachment: fixed;
+                    background-position: center;
+                    background-repeat: no-repeat;
+                    background-size: cover;
+                }
+                .banner-txt-01 {
+                    margin: 200px 0 0 100px;
+                }
+                .banner-txt-01 p {
+                    margin-left: 10px;
+                }
+                .banner-02 {
+                    height: 80vh;
+                    background: url('../img/banner-2.jpg');
+                    min-height: 500px;
+                    background-attachment: fixed;
+                    background-position: center;
+                    background-repeat: no-repeat;
+                    background-size: cover;
+                }
+                .banner-txt-02 {
+                    margin: 240px 0 0 90px;
+                }
+                .banner-txt-02 p {
+                    margin-left: 10px;
+                }
+                .arb {
+                    width: 400px;
+                    margin-top: 30px;
+                }
+                .aabye {
+                    /* width: 370px; */
+                    margin-right: -10px;
+                    padding-left: 0px;
+                }
+                .s-image {
+                    width: 320px;
+                    height: 340px;
+                    margin-top: 10px;
+                }
+                .shop-title-1 {
+                    font-size: 40px;
+                    position: relative;
+                    right: 0px;
+                    top: 0px;
+                    line-height: 1;
+                }
+                .bb {
+                    margin-left: -20px;
+                }
+                .bb-1 {
+                    margin-left: -10px;
+                }
+                .shop-title-2 {
+                    font-size: 40px;
+                    line-height: 1;
+                    position: relative;
+                    top: 0px;
+                    left: 20px;
+                }
+                #autoWidths-3 .b3-body {
+                    padding-right: 30px;
+                }
+                .newsletter .d-flexes {
+                    display: block !important;
+                }
+                .newsletter h2 {
+                    font-size: 50px !important;
+                    margin-left: 110px !important;
+                    padding-top: 70px !important;
+                }
+                .newsletter-form {
+                    margin: 10px 0 0 110px !important;
+                }
+                .d-flexes input {
+                    padding: 10px 110px !important;
+                    /* margin: 10px 0 0 110px !important; */
+                }
+                /* .d-flexes .btn {
+                    margin-left: 110px !important;
+                    margin-top: 1px;
+                } */
+                .slider-main-col-1 {
+                    padding-left: 40px;
+                    margin-right: -19px;
+                }
+                footer {
+                    text-align: center;
+                }
+            }
+            /* <<<<<<<<<<<< MQ for 600px >>>>>>>>>>> */
+            
+            @media(max-width: 600px) {
+                .navbar-brand img {
+                    width: 100px !important;
+                }
+                .banner-txt-01 {
+                    margin: 130px 0 0 100px;
+                }
+                .banner-txt-01 h1 {
+                    font-size: 60px;
+                }
+                .banner-txt-01 p {
+                    font-size: 15px;
+                    margin-left: 10px;
+                }
+                .banner-txt-02 {
+                    margin: 180px 0 0 100px;
+                }
+                .banner-txt-02 h1 {
+                    font-size: 60px;
+                }
+                .banner-txt-02 p {
+                    font-size: 15px;
+                    margin-left: 20px;
+                }
+                .arb {
+                    /* width: 400px; */
+                    margin-top: 30px;
+                }
+                .aabye {
+                    /* width: 370px; */
+                    margin-right: 0px;
+                    padding-left: 0px;
+                }
+                .arb-1 {
+                    padding-left: 0px !important;
+                    margin-right: 0px !important;
+                    margin-left: 1px;
+                }
+                .slider-main-col-1 {
+                    padding-left: 0px !important;
+                    margin-right: 0px !important;
+                    margin-left: 1px;
+                }
+                .arb-1 .item-a img {
+                    width: 190px;
+                }
+                .s-image {
+                    width: 540px;
+                    height: 340px;
+                    margin-top: 10px;
+                }
+                .shop-title-1 {
+                    font-size: 30px;
+                    position: relative;
+                    right: 0px;
+                    top: 0px;
+                    line-height: 1;
+                }
+                .arb-1 .item-a h5 {
+                    font-size: 15px;
+                }
+                .arb-1 .item-a p {
+                    font-size: 12px;
+                }
+                .bb {
+                    margin-left: -20px;
+                }
+                .bb .item-a img {
+                    width: 190px;
+                }
+                .bb-1 {
+                    margin-left: -10px;
+                }
+                .shop-title-2 {
+                    font-size: 30px;
+                    line-height: 1;
+                    position: relative;
+                    top: 0px;
+                    left: 7px;
+                }
+                .bb .item-a h5 {
+                    font-size: 15px;
+                }
+                .bb .item-a p {
+                    font-size: 12px;
+                }
+                .b3-body .item-a img {
+                    width: 190px !important;
+                }
+                .b3-body .item-a h5 {
+                    font-size: 15px;
+                }
+                .b3-body .item-a p {
+                    font-size: 12px;
+                }
+                .newsletter h2 {
+                    margin-left: 30px !important;
+                    padding-top: 35px !important;
+                    font-size: 30px !important;
+                }
+                .newsletter-form {
+                    margin: 10px 0 0 30px !important;
+                }
+                .d-flexes input {
+                    padding: 5px 30px !important;
+                    /* margin: 10px 0 0 30px !important; */
+                }
+                .d-flexes .btn {
+                    padding: 2px 12px;
+                    /* margin-left: 0px !important; */
+                    margin-top: 1px;
+                }
+                .brand-icon .logo-a img {
+                    width: 130px !important;
+                }
+                .copy-right p {
+                    font-size: 12px !important;
+                    /* padding-left: 0px; */
+                }
+                .footer-email {
+                    display: none;
+                }
+                .social-icons {
+                    font-size: 16px;
+                    /* width: !important; */
+                }
+                .social-icons i {
+                    padding: 2px 6px;
+                    float: right;
+                }
+                .footer {
+                    margin-top: 40px !important;
+                }
+            }
+            /* <<<<<<<<<<<< MQ for 420px >>>>>>>>>>> */
+            
+            @media(max-width:420px) {
+                .navbar-brand img {
+                    width: 90px !important;
+                }
+                .banner-txt-01 {
+                    margin-left: 50px;
+                }
+                .banner-txt-01 h1 {
+                    font-size: 52px;
+                }
+                .banner-txt-01 p {
+                    font-size: 11px;
+                }
+                .banner-txt-02 {
+                    margin-left: 40px;
+                }
+                .banner-txt-02 h1 {
+                    font-size: 52px;
+                }
+                .banner-txt-02 p {
+                    margin-left: 30px;
+                    font-size: 11px !important;
+                }
+                .s-image {
+                    width: 350px;
+                    height: 240px;
+                    margin-top: 10px;
+                    margin-left: 15px;
+                }
+                .arb .discount-txt {
+                    font-size: 10px !important;
+                }
+                .arb p {
+                    font-size: 10px !important;
+                    font-weight: 200;
+                    color: grey;
+                    margin-left: 20px;
+                }
+                .arb-1 {
+                    margin-left: 10px;
+                }
+                .bb-1 p {
+                    font-size: 10px !important;
+                    font-weight: 200;
+                    color: grey;
+                    margin-left: 20px;
+                }
+                .bb {
+                    margin-left: 10px;
+                }
+                .footer {
+                    margin-top: 30px !important;
+                }
+                .copy-right p {
+                    font-size: 10px !important;
+                    font-weight: 200;
+                }
+                .footer-email h4 {
+                    font-size: 10px !important;
+                    display: none;
+                }
+            }
+            
+            @media(max-width:360px) {
+                .arb {
+                    width: 350px;
+                }
+                .s-image {
+                    width: 300px;
+                    height: 240px;
+                    margin-top: 10px;
+                }
+                .newsletter h2 {
+                    margin-left: 50px !important;
+                    padding-top: 35px !important;
+                    font-size: 20px !important;
+                }
+                .newsletter-form {
+                    margin-left: 40px;
+                }
+                .d-flexes input {
+                    padding: 2px 20px !important;
+                    margin: 10px 0 0 0px !important;
+                    width: 250px;
+                }
+                .d-flexes .btn {
+                    padding: 2px 5px !important;
+                    margin-left: 0px !important;
+                    margin-top: 1px;
+                }
+                .brand-icon .logo-a img {
+                    width: 100px !important;
+                }
+            }
