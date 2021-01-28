@@ -537,7 +537,7 @@
                 .d-flexes input {
                     padding: 2px 7px !important;
                     margin-top: 10px;
-                           margin-left: -10px;
+                    width: 150px;
                 }
                 .d-flexes .btn {
                     padding: 2px 5px !important;
